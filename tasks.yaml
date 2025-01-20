@@ -1,0 +1,8 @@
+data_analysis:
+  description: "Analyze the given dataset {df}, write Python programs to identify the types of each column specifically, identify if a certain column is numerical data, and if not, is it bool variable? and if not, see if it can convert to date and therefore is a date column which we can do time series analysis also calculate the minimum and maximum of this column"
+  expected_output: "json pydantic object for every column in the dataframe"
+  output_json: "ColumnType"
+
+data_writing:
+  description: "Analyze the analysis results the understanding from data analysis results specifically, what kind of data is this, how is its ranges what information does it has what further analysis we can do"
+  expected_output: "a paragraph of understanding the data results" 
